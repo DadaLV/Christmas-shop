@@ -1,0 +1,31 @@
+.header_contacts {
+  padding: 10px 40px;
+  background-color: var(--subheader-color);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+
+.logo {
+  width: 96px;
+}
+
+.open_hours {
+  color: #FFFFFF;
+  font-family: Fira Sans,sans-serif;
+  font-size: 16px;
+}
+
+.main_header {
+  padding: 35px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: right; 
+  
+}
+

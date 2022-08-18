@@ -1,15 +1,66 @@
+christmas_decor {
+  width: 100%;
+  height: 100%;
+}
 .bg-image {
   background-image: url("../img/background1.png");
-  /* background-color: #cccccc; */
-  height: 100%;
-
-  /* Center and scale the image nicely */
+  min-height: 600px;
+  max-width: 1200px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 110px 15px;
+  display: flex;
+  flex-direction: column;
+   
+    margin: auto;
 }
 
 .ch_d {
-  background: #FFFFFF;
-
+  width: 100%;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  padding: 39px 35px;
+  background: #fff;
+  vertical-align: baseline;
 }
+.outer{
+  display: flex;
+  padding: 0 32px;
+  margin: 0 auto;
+}
+
+.section_text {
+  margin-top: 20px;
+  color: #4f4f4f;
+  font-family: Fira Sans,sans-serif;
+  font-size: 18px;
+}
+
+h1{
+  font-size: 48px;
+  font-family: Playfair Display,serif;
+  font-weight: 600;
+  color: #232323;
+  line-height: 1.1;
+  margin-top: 20px;
+}
+
+.btn_group {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+
+/* .ch_d {
+  background: #FFFFFF;
+  margin: 39px 39px 24px 24px;
+  padding-top: 39px;
+  padding-bottom: 39px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: calc(100% + 30px);
+  /* position: relative; */
+} */
